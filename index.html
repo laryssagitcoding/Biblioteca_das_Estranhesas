@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+    <title>A Biblioteca de Estranhesas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenário-passo0.png" alt="">
+            <p>Ao encontrar alguns livros sem nome na biblioteca de meu avô, fiquei com vontade de saber um pouco mais de cada! Ao puxar um deles me deparei com uma passagem secreta!</p>
+            <button class="btn-proximo" data-proximo="1">Investigar o que há na passagem</button>
+            <button class="btn-proximo" data-proximo="2">Continuar lendo os livros</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo1.png" alt="">
+            <p>Você desce e então se depara com uma sala cheia de fotos de pessoas que você não conhece e uma gaiola escura.</p>
+            <button class="btn-proximo" data-proximo="5">Se aproximar e mexer na gaiola</button>
+            <button class="btn-proximo" data-proximo="6">Olhar ao redor</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <img src="cenário-passo2.png" alt="">
+            <p>Você vasculha mais um pouco os livros de seu avô e se depara com um monóculo, e em um canto escuro, um livro mal cuidado, com diversas páginas amassadas.</p>
+            <button class="btn-proximo" data-proximo="3">Pegar o livro</button>
+            <button class="btn-proximo" data-proximo="4">Pegar o monóculo</button>
+        </div>
+    
+        <div class="passo" id="passo-3">
+            <img src="passo3.png" alt="">
+            <p>Você tenta pegar o livro em suas mãos, quando percebe que aquele livro possui uma boca, ele te morde e você se vê obrigado a sair dali.</p>
+            <p>Fim de Jogo!</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao Início</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="passo4.png" alt="">
+            <p>Ao colocar o monóculo, você consegue ver sua vida toda, do início até o seu fim. Seu cérebro é incapaz de captar toda a informação. Você enlouqueceu.</p>
+            <p>Fim de Jogo!</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao Início</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="passo5.png" alt="">
+            <p>Dentro da gaiola há um pássaro diferente de todos que você já viu. Ele parece olhar fixamente para você.</p>
+            <button class="btn-proximo" data-proximo="7">Chegar perto</button>
+            <button class="btn-proximo" data-proximo="8">Se afastar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="passofinal.png" alt="">
+            <p>O avô aparece e começa a lhe contar sobre todos os mistérios de sua biblioteca. Você descobre segredos antigos e proibidos.</p>
+            <p>Você irá aprender sobre todos os mistérios com à ajuda de seu avô!</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao Início</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="passo7.png" alt="">
+            <p>Você se aproxima e, de repente, o pássaro solta um grito ensurdecedor que faz seus ouvidos sangrarem e a gaiola se quebrar. Você perdeu a audição para sempre.</p>
+            <p>Fim de Jogo!</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao Início</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script> 
+</body>
+</html>
